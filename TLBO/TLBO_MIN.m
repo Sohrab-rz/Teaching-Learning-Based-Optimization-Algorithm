@@ -1,7 +1,5 @@
 %______________________________________________________________________%
     % ------------  Creator    :      Sohrab Rezaei         ----------- %
-    % ------------  K. N. Toosi University of Technology ----------- % 
-    % ------------      Advanced Control Systems Lab     ----------- %
     % -------------------- TLBO - Minimization --------------------- %
 %_____________________________________________________________________%
 %% init
@@ -139,6 +137,7 @@ contourf(X,Y,z,20)
 colorbar
 hold on
 plot(in_new_1(best_solution_position(1,1),1),in_new_1(best_solution_position(1,1),2),'rx','markersize',7);
+
 
 
 
